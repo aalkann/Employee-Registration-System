@@ -1,0 +1,35 @@
+.table-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.table-container table,th,td{
+    border-collapse: collapse;
+    padding: 1rem;
+}
+.table-container thead{
+    background-color: hsla(0, 0%, 60%, 0.333);
+}
+
+.table{
+    width: 70vw;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: hsla(0, 0%, 80%, 0.333);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    overflow: hidden;
+}
+
+.table tr:hover{
+    background-color: hsla(0, 0%, 70%, 0.333);
+}
+
+.table td img{
+    width: 46px;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
