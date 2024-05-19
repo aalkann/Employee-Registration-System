@@ -33,3 +33,35 @@
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.row-delete-button{
+    position: absolute;
+    padding: 1rem 0;
+}
+.row-delete-button button{
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.row-delete-button button:hover{
+    background-color: hsl(0, 100%, 40%);
+    cursor: pointer;
+}
+
+.loading-message{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.row-error-message{
+    /* position: absoute; */
+    text-align: center;
+    font-weight: bold;
+    color: hsl(0, 100%, 40%);
+}
